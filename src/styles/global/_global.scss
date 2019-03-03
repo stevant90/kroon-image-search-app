@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Laila:500|Open+Sans+Condens');
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+h1,
+h2,
+label {
+    font-family: 'Laila', serif;
+    user-select: none;
+}
+
+p,
+a,
+button,
+input,
+select,
+option {
+    font-family: 'Open Sans Condensed', sans-serif;
+    user-select: none;
+}
