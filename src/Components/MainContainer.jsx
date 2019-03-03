@@ -59,9 +59,11 @@ class MainContainer extends Component {
 
         return (
             <div className="MainContainer">
-                <Header />
-                <SearchBar onSearch={this.onSearchRequest} totalPhotos={totalPhotos} />
-                <Filter totalPages={totalPages} filterPhotos={this.filterPhotos} filterTerm={filterTerm}/>
+                <div className="MainContainer__top-content">
+                    <Header />
+                    <SearchBar onSearch={this.onSearchRequest} totalPhotos={totalPhotos} />
+                    <Filter totalPages={totalPages} filterPhotos={this.filterPhotos} filterTerm={filterTerm} />
+                </div>
                 <PhotoContainer photos={photos} searchTerm={searchTerm} />
                 {totalPages > 0
                     && (

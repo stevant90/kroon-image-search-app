@@ -52,6 +52,7 @@ export default class SearchBar extends Component {
                             className={`SearchBar__input ${errorMessage ? "SearchBar__input--error" : ""}`}
                             id="searchInput"
                             type="search"
+                            autoComplete="off"
                             value={this.state.searchTerm}
                             onChange={this.handleInputChange}
                         />
