@@ -1,4 +1,4 @@
-### Kroon-studio-image-search-app
+### Kroon-image-search-app
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
