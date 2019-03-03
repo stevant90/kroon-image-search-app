@@ -1,6 +1,6 @@
 ### Kroon-image-search-app
 
-DEMO:[Kroon-image-search-app](https://kroon-studio-image-search.herokuapp.com/)
+DEMO: [Kroon-image-search-app](https://kroon-studio-image-search.herokuapp.com/)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
