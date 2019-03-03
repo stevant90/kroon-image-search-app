@@ -9,7 +9,6 @@
         padding: 20px;
     }
     @media(min-width: 1024px) {
-        // padding: 20px 0;
         width: 80%;
         margin: 0 auto;
     }
@@ -22,6 +21,10 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
+
+    @media(min-width: 1024px) {
+        justify-content: flex-start;
+    }
 }
 
 .pagination {

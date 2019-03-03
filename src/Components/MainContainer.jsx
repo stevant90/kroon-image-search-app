@@ -26,7 +26,6 @@ class MainContainer extends Component {
         this.setState({
             searchTerm,
             activePage: 1,
-            filterTerm: ''
         });
     }
 
@@ -55,14 +54,14 @@ class MainContainer extends Component {
 
     render() {
         const { photos, totalPages, totalPhotos } = this.props;
-        const { searchTerm, filterTerm } = this.state;
+        const { searchTerm } = this.state;
 
         return (
             <div className="MainContainer">
                 <div className="MainContainer__top-content">
                     <Header />
                     <SearchBar onSearch={this.onSearchRequest} totalPhotos={totalPhotos} />
-                    <Filter totalPages={totalPages} filterPhotos={this.filterPhotos} filterTerm={filterTerm} />
+                    <Filter totalPages={totalPages} filterPhotos={this.filterPhotos} />
                 </div>
                 <PhotoContainer photos={photos} searchTerm={searchTerm} />
                 {totalPages > 0
